@@ -1,0 +1,29 @@
+source code repo: https://github.com/Zenysis/ethiopian-date
+
+
+Introduction
+ethiopian-date is a date converter from Ethiopian calendar to Gregorian calendar and vice-versa. It is a port from @rgaudin's ethiopian_date python module.
+
+Installation
+npm install this package:
+
+$ npm install ethiopian-date --save
+
+
+Usage
+Include it in your project:
+
+var ethiopianDate = require('ethiopian-date');
+ethiopian-date currently supports two function calls.
+
+To convert Gregorian dates to Ethiopian, call:
+ethiopianDate.toEthiopian(YYYY, MM, DD)
+with return type array [YYYY, MM, DD]
+
+To convert Ethiopian dates to Gregorian, call:
+ethiopianDate.toGregorian(YYYY, MM, DD)
+with return type array [YYYY, MM, DD]
+
+Resources
+http://www.funaba.org/en/calendar-conversion.cgi
+http://www.senamirmir.org/projects/
